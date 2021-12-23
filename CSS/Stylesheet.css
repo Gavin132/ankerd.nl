@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); 
+@import 
+url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); 
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+ body{
+  margin: 0px;
+  background-color: 111111;
+}
+
+@media screen and (max-width: 1200px) {
+.footerleft{
+float: left;
+width: 100%;
+display: flex;
+justify-content: left;
+padding: 5px;
+background-color: #1b1b1b;
+color: lightgray;
+font-family: "Open Sans", sans serif;
+font-style: italic;
+font-weight: lighter;
+margin-left: 3%;
+font-size: 90%
+}
+
+.footerright{
+float: right;
+width: 100%;
+display: flex;
+justify-content: right;
+padding: 5px 10px;
+background-color: #1b1b1b;
+color: lightgray;
+font-family: "Open Sans", sans serif;
+font-style: italic;
+font-weight: lighter;
+margin-left: 15%;
+font-size: 90%
+}
+
+.parallaxcenter{
+font-size: 250%;
+font-family: "Poppins", sans serif;
+font-weight: bold;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+opacity: 10%;
+}
+
+pmembers{
+flex-wrap: wrap;
+padding: 0px 5%;
+font-family: "Open Sans", sans serif;
+color: white;
+float: right;
+display: flex;
+}
+
+p{
+padding: 0px 5%;
+font-family: "Open Sans", sans serif;
+color: white;
+}
+
+header{
+font-size: 200%;
+font-family: "Poppins", sans serif;
+padding: 10px 5%;
+font-weight: bold;
+color: white;
+}
+
+p2{
+display: block;
+font-family: "Open Sans", sans serif;
+text-align: center;
+padding: 0px 5%;
+font-size: 100%;
+color: white;
+}
+
+header2{
+display: block;
+font-family: "Poppins", sans serif;
+font-size: 200%;
+font-weight: bold;
+text-align: center;
+align: middle;
+font-weight: bold;
+padding: 0px 5%;
+color: white;
+}
+
+.imgnavbar{
+display: flex;
+width: 150px;
+float: top;
+margin-left: auto;
+margin-right: auto;
+padding: 2% 0;
+}
+
+.imgfooter{
+display: flex;
+width: 20%;
+float: top;
+}
+
+
+.navbar{
+height: auto;
+width: 100%;
+position: top;
+background-color: #1b1b1b;
+text-justify: center;
+text-align: center;
+}
+
+.button:hover{
+display: flex;
+padding: 5px 5%;
+font-family: "Poppins", sans serif;
+font-weight: bold;
+font-size: 120%;
+justify-content: center;
+text-decoration: none;
+color: #dabaff;
+transition: 0.5s;
+margin-left: auto;
+margin-right: auto;
+}
+
+.button{
+display: flex;
+padding: 5px 5%;
+font-family: "Poppins", sans serif;
+font-weight: bold;
+font-size: 120%;
+text-align: center;
+text-decoration: none;
+color: 9ac2fa;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+}
+
+.button2{
+display: flex;
+font-family: "Open Sans", sans serif;
+font-weight: lighter;
+text-decoration: none;
+color: lightgray;
+justify-text: left;
+}
+
+.imgcenter{
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+display: block;
+justify-text: center;
+}
+
+.members{
+margin-right: 10px;
+margin-left: 5%;
+width: 90%;
+float: left;
+border: solid;
+border-radius: 10px;
+border-size: 5px;
+border-color: white;
+display: flex;
+}
+
+.imginp{
+padding: 10px 10px;
+width: 80%;
+float: left;
+display: flex;
+}
+
+}
+@media screen and (min-width: 1201px) {
+.footerleft{
+float: left;
+width: 100%;
+display: flex;
+justify-content: left;
+padding: 5px;
+background-color: #1b1b1b;
+color: lightgray;
+font-family: "Open Sans", sans serif;
+font-style: italic;
+font-weight: lighter;
+margin-left: 3%;
+font-size: 90%
+}
+
+.footerright{
+float: right;
+width: 100%;
+display: flex;
+justify-content: right;
+padding: 5px 10px;
+background-color: #1b1b1b;
+color: lightgray;
+font-family: "Open Sans", sans serif;
+font-style: italic;
+font-weight: lighter;
+margin-left: 15%;
+font-size: 90%
+}
+
+
+.parallaxcenter{
+font-size: 350%;
+font-family: "Poppins", sans serif;
+font-weight: bold;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+transition: 1s;
+opacity: 10%;
+}
+
+pmembers{
+font-family: "Open Sans", sans serif;
+color: white;
+display: flex;
+margin-right: 13%;
+flex-wrap: wrap;
+}
+
+p{
+display: block;
+font-family: "Open Sans", sans serif;
+font-size: 100%;
+color: white;
+margin-left: 13%;
+margin-right: 13%;
+}
+
+header{
+display: block;
+font-family: "Poppins", sans serif;
+font-size: 200%;
+font-weight: bold;
+font-weight: bold;
+margin-left: 13%;
+color: white;
+}
+
+p2{
+display: block;
+font-family: "Open Sans", sans serif;
+text-align: center;
+padding: 0px 33%;
+font-size: 100%;
+color: white;
+}
+
+
+header2{
+display: block;
+font-family: "Poppins", sans serif;
+font-size: 200%;
+font-weight: bold;
+text-align: center;
+align: middle;
+color: white;
+font-weight: bold;
+}
+
+.imgnavbar{
+display: flex;
+padding: 5px 45px;
+height: auto;
+width: 205px;
+float: left;
+}
+
+.imgfooter{
+width: 100px;
+display: flex;
+justify-content: left;
+padding: 5px;
+color: white;
+padding: 0 0;
+font-family: "Open Sans", sans serif;
+font-style: italic;
+font-weight: lighter;
+margin-left: 1%;
+}
+
+.navbar{
+height: 80px;
+background-color: #1b1b1b;
+width: 80%;
+padding: 0px 10%;
+}
+
+.button:hover{
+display: flex;
+padding: 0 50px;
+float: right;
+border: none;
+font-family: "Poppins", sans serif;
+font-weight: bold;
+font-size: 120%;
+text-align: center;
+text-decoration: none;
+color: #dabaff;
+margin: 25px auto;
+transition: 0.5s;
+}
+
+.button{
+display: flex;
+padding: 0 50px;
+float: right;
+border: none;
+font-family: "Poppins", sans serif;
+font-weight: bold;
+font-size: 120%;
+text-align: center;
+color: #9ac2fa;
+margin: 25px auto;
+text-decoration: none;
+}
+
+.button2{
+display: flex;
+font-family: "Open Sans", sans serif;
+font-weight: lighter;
+text-decoration: none;
+color: lightgray;
+justify-text: left;
+}
+
+.imgcenter{
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+display: block;
+justify-text: center;
+text-align: left;
+}
+
+.members{
+display: flex;
+margin-right: 10px;
+margin-left: 13%;
+width: 20%;
+float: left;
+border: solid;
+border-radius: 10px;
+border-size: 5px;
+border-color: white;
+}
+
+.imginp{
+display: flex;
+padding: 10px 10px;
+width: 30%;
+float: left;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  width: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+

@@ -7,7 +7,7 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap'
 
  body{
   margin: 0px;
-  background-color: 111111;
+  background-color: #111111;
 }
 
 @media screen and (max-width: 1200px) {
@@ -188,212 +188,212 @@ display: flex;
 
 }
 @media screen and (min-width: 1201px) {
-.footerleft{
-float: left;
-width: 100%;
-display: flex;
-justify-content: left;
-padding: 5px;
-background-color: #1b1b1b;
-color: lightgray;
-font-family: "Open Sans", sans serif;
-font-style: italic;
-font-weight: lighter;
-margin-left: 3%;
-font-size: 90%
-}
+    .footerleft {
+        float: left;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        padding: 5px;
+        background-color: #1b1b1b;
+        color: lightgray;
+        font-family: "Open Sans", sans serif;
+        font-style: italic;
+        font-weight: lighter;
+        margin-left: 3%;
+        font-size: 90%
+    }
 
-.footerright{
-float: right;
-width: 100%;
-display: flex;
-justify-content: right;
-padding: 5px 10px;
-background-color: #1b1b1b;
-color: lightgray;
-font-family: "Open Sans", sans serif;
-font-style: italic;
-font-weight: lighter;
-margin-left: 15%;
-font-size: 90%
-}
-
-
-.parallaxcenter{
-font-size: 350%;
-font-family: "Poppins", sans serif;
-font-weight: bold;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
-transition: 1s;
-opacity: 10%;
-}
-
-pmembers{
-font-family: "Open Sans", sans serif;
-color: white;
-display: flex;
-margin-right: 13%;
-flex-wrap: wrap;
-}
-
-p{
-display: block;
-font-family: "Open Sans", sans serif;
-font-size: 100%;
-color: white;
-margin-left: 13%;
-margin-right: 13%;
-}
-
-header{
-display: block;
-font-family: "Poppins", sans serif;
-font-size: 200%;
-font-weight: bold;
-font-weight: bold;
-margin-left: 13%;
-color: white;
-}
-
-p2{
-display: block;
-font-family: "Open Sans", sans serif;
-text-align: center;
-padding: 0px 33%;
-font-size: 100%;
-color: white;
-}
+    .footerright {
+        float: right;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        padding: 5px 10px;
+        background-color: #1b1b1b;
+        color: lightgray;
+        font-family: "Open Sans", sans serif;
+        font-style: italic;
+        font-weight: lighter;
+        margin-left: 15%;
+        font-size: 90%
+    }
 
 
-header2{
-display: block;
-font-family: "Poppins", sans serif;
-font-size: 200%;
-font-weight: bold;
-text-align: center;
-align: middle;
-color: white;
-font-weight: bold;
-}
+    .parallaxcenter {
+        font-size: 350%;
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        transition: 1s;
+        opacity: 10%;
+    }
 
-.imgnavbar{
-display: flex;
-padding: 5px 45px;
-height: auto;
-width: 205px;
-float: left;
-}
+    pmembers {
+        font-family: "Open Sans", sans serif;
+        color: white;
+        display: flex;
+        margin-right: 13%;
+        flex-wrap: wrap;
+    }
 
-.imgfooter{
-width: 100px;
-display: flex;
-justify-content: left;
-padding: 5px;
-color: white;
-padding: 0 0;
-font-family: "Open Sans", sans serif;
-font-style: italic;
-font-weight: lighter;
-margin-left: 1%;
-}
+    p {
+        display: block;
+        font-family: "Open Sans", sans serif;
+        font-size: 100%;
+        color: white;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
 
-.navbar{
-height: 80px;
-background-color: #1b1b1b;
-width: 80%;
-padding: 0px 10%;
-}
+    header {
+        display: block;
+        font-family: "Poppins", sans serif;
+        font-size: 200%;
+        font-weight: bold;
+        font-weight: bold;
+        margin-left: 13%;
+        color: white;
+    }
 
-.button:hover{
-display: flex;
-padding: 0 50px;
-float: right;
-border: none;
-font-family: "Poppins", sans serif;
-font-weight: bold;
-font-size: 120%;
-text-align: center;
-text-decoration: none;
-color: #dabaff;
-margin: 25px auto;
-transition: 0.5s;
-}
+    p2 {
+        display: block;
+        font-family: "Open Sans", sans serif;
+        text-align: center;
+        padding: 0px 33%;
+        font-size: 100%;
+        color: white;
+    }
 
-.button{
-display: flex;
-padding: 0 50px;
-float: right;
-border: none;
-font-family: "Poppins", sans serif;
-font-weight: bold;
-font-size: 120%;
-text-align: center;
-color: #9ac2fa;
-margin: 25px auto;
-text-decoration: none;
-}
 
-.button2{
-display: flex;
-font-family: "Open Sans", sans serif;
-font-weight: lighter;
-text-decoration: none;
-color: lightgray;
-justify-text: left;
-}
+    header2 {
+        display: block;
+        font-family: "Poppins", sans serif;
+        font-size: 200%;
+        font-weight: bold;
+        text-align: center;
+        align: middle;
+        color: white;
+        font-weight: bold;
+    }
 
-.imgcenter{
-margin-left: auto;
-margin-right: auto;
-width: 30%;
-display: block;
-justify-text: center;
-text-align: left;
-}
+    .imgnavbar {
+        display: flex;
+        padding: 5px 45px;
+        height: auto;
+        width: 205px;
+        float: left;
+    }
 
-.members{
-display: flex;
-margin-right: 10px;
-margin-left: 13%;
-width: 20%;
-float: left;
-border: solid;
-border-radius: 10px;
-border-size: 5px;
-border-color: white;
-}
+    .imgfooter {
+        width: 100px;
+        display: flex;
+        justify-content: left;
+        padding: 5px;
+        color: white;
+        padding: 0 0;
+        font-family: "Open Sans", sans serif;
+        font-style: italic;
+        font-weight: lighter;
+        margin-left: 1%;
+    }
 
-.imginp{
-display: flex;
-padding: 10px 10px;
-width: 30%;
-float: left;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-  border-radius: 5px;
-  
-}
+    .navbar {
+        height: 80px;
+        background-color: #1b1b1b;
+        width: 80%;
+        padding: 0px 10%;
+    }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #333;
-}
+    .button:hover {
+        display: flex;
+        padding: 0 50px;
+        float: right;
+        border: none;
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
+        font-size: 120%;
+        text-align: center;
+        text-decoration: none;
+        color: #dabaff;
+        margin: 25px auto;
+        transition: 0.5s;
+    }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 8px;
-  width: 8px;
-}
+    .button {
+        display: flex;
+        padding: 0 50px;
+        float: right;
+        border: none;
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
+        font-size: 120%;
+        text-align: center;
+        color: #9ac2fa;
+        margin: 25px auto;
+        text-decoration: none;
+    }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    .button2 {
+        display: flex;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
+        text-decoration: none;
+        color: lightgray;
+        justify-text: left;
+    }
+
+    .imgcenter {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        display: block;
+        justify-text: center;
+        text-align: left;
+    }
+
+    .members {
+        display: flex;
+        margin-right: 10px;
+        margin-left: 13%;
+        width: 20%;
+        float: left;
+        border: solid;
+        border-radius: 10px;
+        border-size: 5px;
+        border-color: white;
+    }
+
+    .imginp {
+        display: flex;
+        padding: 10px 10px;
+        width: 30%;
+        float: left;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+        width: 8px;
+        border-radius: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #333;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 8px;
+        width: 8px;
+    }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
 }
 

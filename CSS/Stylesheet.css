@@ -83,6 +83,14 @@ body {
         color: white;
     }
 
+    pcontact {
+        font-family: "Open Sans", sans serif;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
     header2 {
         display: block;
         font-family: "Poppins", sans serif;
@@ -181,11 +189,29 @@ body {
         color: white;
         font-weight: bold;
     }
-}
 
+    
+    .contactbox {
+        float: left;
+        margin-left: 20px;
+        border: solid;
+        border-radius: 15px;
+        background-color: #2D2D2D;
+        border-color: #1b1b1b;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        margin-top: 20px;
 
+    }
 
+    .contactcenter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+}   /*let goed op dit verdomde haakje!!!*/
 
 
 
@@ -240,6 +266,14 @@ body {
         display: flex;
         margin-right: 13%;
         flex-wrap: wrap;
+    }
+
+    pcontact {
+        font-family: "Open Sans", sans serif;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
     }
 
     p {
@@ -373,13 +407,44 @@ body {
     }
 
     .bloglink {
-        display: block;
+        display: inline-flex;
         font-family: "Open Sans", sans serif;
         font-size: 100%;
         color: white;
-        margin-right: 13%;
         font-weight: bold;
     }
+
+    .contactcenter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+/*    .contactboxleft {
+        float: left;
+        border: solid;
+        border-radius: 15px;
+        background-color: #2D2D2D;
+        border-color: #1b1b1b;
+        padding: 20px;
+        display: block;
+        text-align: center;
+    }
+    */
+
+    .contactbox {
+        float: left;
+        margin-left: 20px;
+        border: solid;
+        border-radius: 15px;
+        background-color: #2D2D2D;
+        border-color: #1b1b1b;
+        padding: 20px;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
     /* width */
     ::-webkit-scrollbar {
         width: 8px;

@@ -177,7 +177,6 @@ body {
     }
 
     .bloglink {
-        padding: 0px 5%;
         font-family: "Open Sans", sans serif;
         color: white;
         font-weight: bold;
@@ -378,7 +377,6 @@ body {
         font-family: "Open Sans", sans serif;
         font-size: 100%;
         color: white;
-        margin-left: 13%;
         margin-right: 13%;
         font-weight: bold;
     }

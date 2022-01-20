@@ -194,6 +194,7 @@ body {
     .contactbox {
         float: left;
         margin-left: 20px;
+        margin-right: 20px;
         border: solid;
         border-radius: 15px;
         background-color: #2D2D2D;
@@ -202,7 +203,7 @@ body {
         text-align: center;
         display: block;
         margin-top: 20px;
-
+        max-width: 80%;
     }
 
     .contactcenter {
@@ -274,6 +275,8 @@ body {
         display: flex;
         flex-wrap: wrap;
         margin-top: 10px;
+        text-align: center;
+        justify-content: center;
     }
 
     p {
@@ -415,9 +418,9 @@ body {
     }
 
     .contactcenter {
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
 /*    .contactboxleft {

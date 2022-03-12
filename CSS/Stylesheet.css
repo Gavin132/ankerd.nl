@@ -61,9 +61,9 @@ body {
     }
 
     p {
-        padding: 0px 5%;
         font-family: "Open Sans", sans serif;
         color: white;
+        padding: 10px 5%;
     }
 
     header {
@@ -82,7 +82,6 @@ body {
         text-align: left;
         font-weight: bold;
         color: white;
-
     }
 
     p2 {
@@ -124,39 +123,39 @@ body {
     }
 
 
-    .navbar {
-        height: auto;
-        width: 100%;
+    .navbarleft {
+        display: flex;
         background-color: #1b1b1b;
-        text-align: center;
+        width: 100%;
+        height: 58px;
+        justify-content: center;
+    }
+
+    .navbarright {
+        display: flex;
+        background-color: #1b1b1b;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
     }
 
     .button:hover {
-        display: flex;
-        padding: 5px 5%;
-        font-family: "Poppins", sans serif;
-        font-weight: bold;
-        font-size: 120%;
-        justify-content: center;
         text-decoration: none;
-        color: #dabaff;
+        color: #cefcff;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
         transition: 0.5s;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .button {
-        display: flex;
-        padding: 5px 5%;
-        font-family: "Poppins", sans serif;
-        font-weight: bold;
-        font-size: 120%;
-        text-align: center;
         text-decoration: none;
-        color: #9ac2fa;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
+        color: white;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
+        padding: 0px 40px 0px 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .button2 {
@@ -215,12 +214,6 @@ body {
         justify-content: center;
     }
 
-    .link {
-        font-family: "Open Sans", sans serif;
-        color: white;
-        text-decoration: underline;
-    }
-
     .p {
         display: flex;
         font-family: "Open Sans", sans serif;
@@ -234,7 +227,58 @@ body {
         width: 80%;
     }
 
-}   /*let goed op dit verdomde haakje!!!*/
+    .link {
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 100%;
+        color: white;
+        text-decoration: underline;
+        display: inline-flex;
+    }
+
+        .link:hover {
+            text-align: justify;
+            font-family: "Open Sans", sans serif;
+            font-size: 100%;
+            color: gray;
+            text-decoration: underline;
+            display: inline-flex;
+        }
+
+    .bloglink {
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 120%;
+        color: white;
+        text-decoration: underline;
+        display: inline-flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+        .bloglink:hover {
+            text-align: justify;
+            font-family: "Open Sans", sans serif;
+            font-size: 120%;
+            color: gray;
+            text-decoration: underline;
+            display: inline-flex;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: 0.5s;
+        }
+
+    .hr {
+        width: 140%;
+        height: 1px;
+        border-width: 0;
+        color: gray;
+        background-color: gray;
+    }
+
+
+}
+/*let goed op dit verdomde haakje!!!*/
 
 
 
@@ -322,8 +366,8 @@ body {
         margin-left: 13%;
         color: white;
     }
-        
-        .header3 {
+
+    .header3 {
         display: block;
         font-family: "Poppins", sans serif;
         font-size: 200%;
@@ -353,11 +397,8 @@ body {
     }
 
     .imgnavbar {
-        display: flex;
-        padding: 5px 45px;
-        height: auto;
-        width: 205px;
-        float: left;
+        height: 50px;
+        padding: 4px 0px 4px 0px;
     }
 
     .imgfooter {
@@ -373,40 +414,40 @@ body {
         margin-left: 1%;
     }
 
-    .navbar {
-        height: 80px;
+    .navbarleft {
+        margin-left: 13%;
+        display: flex;
+        justify-content: left;
         background-color: #1b1b1b;
-        width: 80%;
-        padding: 0px 10%;
+        width: 100%;
+        height: 58px;
+    }
+
+    .navbarright {
+        margin-left: 0%;
+        display: flex;
+        margin-right: 13%;
+        justify-content: flex-end;
+        background-color: #1b1b1b;
+        width: 100%;
+        height: 58px;
+        align-items: center;
     }
 
     .button:hover {
-        display: flex;
-        padding: 0 50px;
-        float: right;
-        border: none;
-        font-family: "Poppins", sans serif;
-        font-weight: bold;
-        font-size: 120%;
-        text-align: center;
         text-decoration: none;
-        color: #dabaff;
-        margin: 25px auto;
+        color: #cefcff;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
         transition: 0.5s;
-    }
+        }
 
     .button {
-        display: flex;
-        padding: 0 50px;
-        float: right;
-        border: none;
-        font-family: "Poppins", sans serif;
-        font-weight: bold;
-        font-size: 120%;
-        text-align: center;
-        color: #9ac2fa;
-        margin: 25px auto;
         text-decoration: none;
+        color: white;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
+        padding: 0px 40px 0px 40px;
     }
 
     .button2 {
@@ -420,7 +461,7 @@ body {
     .imgcenter {
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 40%;
         display: block;
         text-align: left;
     }
@@ -451,7 +492,7 @@ body {
         flex-wrap: wrap;
     }
 
-/*    .contactboxleft {
+    /*    .contactboxleft {
         float: left;
         border: solid;
         border-radius: 15px;
@@ -520,6 +561,17 @@ body {
             padding-bottom: 10px;
             transition: 0.5s;
         }
+
+    .hr {
+        width: 112%;
+        height: 1px;
+        border-width: 0;
+        color: gray;
+        background-color: gray;
+    }
+
+
+
 
 
     /* width */

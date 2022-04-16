@@ -287,6 +287,11 @@ body {
         height: 25%;
     }
 
+    .imgcenterdiv {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
 }
 /*let goed op dit verdomde haakje!!!*/
 
@@ -589,7 +594,11 @@ body {
         height: 390px;
     }
 
-
+        .imgcenterdiv {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
 
     /* width */
     ::-webkit-scrollbar {

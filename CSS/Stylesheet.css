@@ -287,10 +287,18 @@ body {
         height: 25%;
     }
 
-    .imgcenterdiv {
-        display: flex;
-        justify-content: center;
+        .imgcenterdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+    .imggallery {
+        float: left;
         width: 90%;
+    margin: 10px;
     }
 }
 /*let goed op dit verdomde haakje!!!*/
@@ -595,9 +603,19 @@ body {
     }
 
         .imgcenterdiv {
-        display: flex;
-        justify-content: center;
-        width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+            margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .imggallery {
+        float: left;
+        width: 48%;
+    margin: 10px;
     }
 
     /* width */

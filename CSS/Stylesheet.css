@@ -98,6 +98,10 @@ body {
         color: white;
     }
 
+    pcontact2 {
+        display: flex;
+    }
+
     .header2 {
         display: block;
         font-family: "Poppins", sans serif;
@@ -121,7 +125,6 @@ body {
         display: flex;
         width: 50%;
     }
-
 
     .navbarleft {
         display: flex;
@@ -184,7 +187,7 @@ body {
         width: 90%;
         float: left;
         border: solid;
-        border-radius: 10px;
+        border-radius: 20px;
         border-color: white;
         display: flex;
     }
@@ -200,7 +203,7 @@ body {
         float: left;
         margin-left: 20px;
         margin-right: 20px;
-        border-radius: 5px;
+        border-radius: 20px;
         background-color: #2D2D2D;
         border-color: #1b1b1b;
         padding: 20px;
@@ -445,7 +448,8 @@ body {
         display: block;
         font-family: "Open Sans", sans serif;
         text-align: center;
-        padding: 0px 33%;
+        margin-left: 13%;
+        margin-right: 13%;
         font-size: 100%;
         color: white;
     }
@@ -540,7 +544,7 @@ body {
         width: 20%;
         float: left;
         border: solid;
-        border-radius: 10px;
+        border-radius: 20px;
         border-color: white;
     }
 
@@ -554,7 +558,7 @@ body {
 
     .contactcenter {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         transition: 0.5s;
@@ -575,7 +579,7 @@ body {
     .contactbox {
         float: left;
         margin-left: 20px;
-        border-radius: 5px;
+        border-radius: 20px;
         background-color: #2D2D2D;
         border-color: #1b1b1b;
         padding-left: 20px;

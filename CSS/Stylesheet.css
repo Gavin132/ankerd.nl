@@ -739,13 +739,12 @@ body {
         color: #fff;
         text-align: center;
         border-radius: 6px;
-        padding: 5px 0;
+        padding: 5px 5px;
         visibility: hidden;
         text-align: justify;
         font-family: "Open Sans", sans serif;
         font-size: 100%;
         color: white;
-        text-decoration: underline;
         position: absolute;
         z-index: 1;
         display: inline-flex;

@@ -25,7 +25,14 @@
             $("#navbar-placeholder").load("navbar.html");
         });
     </script>
+    <script>
+        function copyText() {
 
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("gavin132™#6641");
+        }
+    </script>
     <style>
         .parallax {
             background-image: url("images/links.png");
@@ -59,17 +66,18 @@
                 <hr class="hr">
                 <a target="_blank" class="bloglink" href="https://git.ankerd.nl/home">git.ankerd.nl</a>
                 <br />A Github pages version of this main website. Any changes that are made to the website will appear here first.
-                <hr class="hr">
-                <a target="_blank" class="bloglink" href="https://verjaardag.ankerd.nl">verjaardag.ankerd.nl</a>
-                <br />This website is a birthday radar for ankerd members. Most of us are listed on this website.
-                <br />If you want to be part of the database, ask Gavin132 for more info.
-                <hr class="hr">
+                <hr class="hr"
             </pcontact>
         </pc>
 
         <pc class="contactbox">
             <pcontact2>
                 <br><a target="_blank" style="text-decoration: none; align-items: center; flex-direction: column; font-size: 85%;" class="link" href="https://discord.com/invite/BwUPSHZ"><i style="padding:20px;text-decoration:none;" class="fa-brands fa-discord fa-2xl"></i>Discord</a>
+                <div class="linkcopy">
+                    gavin132™#6641
+                    <span class="linkcopytext">Copy name</span>
+                </div>
+                <br><a style="text-decoration: none; align-items: center; flex-direction: column; font-size: 85%;" class="linkcopy" onclick="copyText()"><i style="padding:20px;text-decoration:none;" class="fa-brands fa-discord fa-2xl"></i></a>
                 <br><a target="_blank" style="text-decoration: none; align-items: center; flex-direction: column; font-size: 85%;" class="link" href="https://www.youtube.com/channel/UCPO8wpgzsm0NQ4hw8HanKdw"><i style="padding:20px;" class="fa-brands fa-youtube fa-2xl"></i>Youtube</a>
                 <br><a target="_blank" style="text-decoration: none; align-items: center; flex-direction: column; font-size: 85%;" class="link" href="https://github.com/Gavin132"><i style="padding:20px;" class="fa-brands fa-github fa-2xl"></i>Github</a>
                 <br><a target="_blank" style="text-decoration: none; align-items: center; flex-direction: column; font-size: 85%;" class="link" href="https://steamcommunity.com/groups/Ankerd"><i style="padding:20px;" class="fa-brands fa-steam fa-2xl"></i>Steam</a>
@@ -83,7 +91,7 @@
     <div class="contactcenter">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504586.920975181!2d5.279555149999999!3d52.19095095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4a8a2c46063febc5%3A0xdb81ca4f2d22092d!2sankerd!5e0!3m2!1sen!2snl!4v1656284020823!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-        <br>
+    <br>
     <br>
 </body>
 

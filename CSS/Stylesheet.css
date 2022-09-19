@@ -291,18 +291,18 @@ body {
         height: 25%;
     }
 
-        .imgcenterdiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    .imgcenterdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .imggallery {
         float: left;
         width: 90%;
-    margin: 10px;
+        margin: 10px;
     }
 
     .pagenumberbutton {
@@ -345,9 +345,39 @@ body {
         margin-bottom: 5px;
     }
 
-}
-/*let goed op dit verdomde haakje!!!*/
+    .linkcopy {
+        position: relative;
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 100%;
+        color: white;
+        text-decoration: underline;
+        display: inline-flex;
+    }
 
+        .linkcopy .linkcopytext {
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            visibility: hidden;
+            text-align: justify;
+            font-family: "Open Sans", sans serif;
+            font-size: 100%;
+            color: white;
+            text-decoration: underline;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .linkcopy:hover .linkcopytext {
+            visibility: visible;
+        }
+    /*let goed op dit verdomde haakje!!!*/
+
+}
 
 
 @media screen and (min-width: 1201px) {
@@ -703,6 +733,28 @@ body {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    .linkcopy .linkcopytext {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        visibility: hidden;
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 100%;
+        color: white;
+        text-decoration: underline;
+        position: absolute;
+        z-index: 1;
+        display: inline-flex;
+    }
+
+    .linkcopy:hover .linkcopytext {
+        visibility: visible;
+    }
+
 
     /* width */
     ::-webkit-scrollbar {

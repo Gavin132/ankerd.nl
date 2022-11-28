@@ -378,7 +378,16 @@ body {
         .linkcopy:hover .linkcopytext {
             visibility: visible;
         }
+
+    ::selection {
+        color: black;
+        background: #f25a02;
+    }
+
+
+
     /*let goed op dit verdomde haakje!!!*/
+
 
 }
 

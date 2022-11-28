@@ -5,9 +5,10 @@
 
 body {
     margin: 0px;
-    background-color: #111111;
+    background-color: #000;
 }
 
+/*mobile css*/
 @media screen and (max-width: 1200px) {
     .footerleft {
         float: left;
@@ -15,7 +16,7 @@ body {
         display: flex;
         justify-content: left;
         padding: 5px;
-        background-color: #1b1b1b;
+        background-color: #111;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -30,7 +31,7 @@ body {
         display: flex;
         justify-content: right;
         padding: 5px 10px;
-        background-color: #1b1b1b;
+        background-color: #111;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -130,7 +131,7 @@ body {
 
     .navbarleft {
         display: flex;
-        background-color: #1b1b1b;
+        background-color: #111;
         width: 100%;
         height: 58px;
         justify-content: center;
@@ -139,7 +140,7 @@ body {
 
     .navbarright {
         display: flex;
-        background-color: #1b1b1b;
+        background-color: #111;
         width: 100%;
         height: auto;
         flex-direction: row;
@@ -150,7 +151,7 @@ body {
 
     .button:hover {
         text-decoration: none;
-        color: #cefcff;
+        color: #f25a02;
         font-family: "Open Sans", sans serif;
         font-weight: lighter;
         transition: 0.5s;
@@ -206,8 +207,8 @@ body {
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 20px;
-        background-color: #2D2D2D;
-        border-color: #1b1b1b;
+        background-color: #111;
+        border-color: #111;
         padding: 20px;
         flex-direction: column;
         align-content: center;
@@ -252,7 +253,7 @@ body {
             text-align: justify;
             font-family: "Open Sans", sans serif;
             font-size: 100%;
-            color: gray;
+            color: #f25a02;
             text-decoration: underline;
             display: inline-flex;
         }
@@ -272,7 +273,7 @@ body {
             text-align: justify;
             font-family: "Open Sans", sans serif;
             font-size: 120%;
-            color: gray;
+            color: #f25a02;
             text-decoration: underline;
             display: inline-flex;
             padding-top: 10px;
@@ -317,7 +318,7 @@ body {
 
         .pagenumberbutton:hover {
             text-decoration: none;
-            color: #cefcff;
+            color: #f25a02;
             font-family: "Open Sans", sans serif;
             font-weight: bold;
             transition: 1s;
@@ -382,6 +383,13 @@ body {
 }
 
 
+
+
+
+
+
+
+/*---------------------------------------------------pc css------------------------------------------------*/
 @media screen and (min-width: 1201px) {
     .footerleft {
         float: left;
@@ -389,7 +397,7 @@ body {
         display: flex;
         justify-content: left;
         padding: 5px;
-        background-color: #1b1b1b;
+        background-color: #111;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -404,7 +412,7 @@ body {
         display: flex;
         justify-content: right;
         padding: 5px 10px;
-        background-color: #1b1b1b;
+        background-color: #111;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -520,7 +528,7 @@ body {
         margin-left: 13%;
         display: flex;
         justify-content: left;
-        background-color: #1b1b1b;
+        background-color: #111;
         width: 100%;
         height: 58px;
     }
@@ -530,7 +538,7 @@ body {
         display: flex;
         margin-right: 13%;
         justify-content: flex-end;
-        background-color: #1b1b1b;
+        background-color: #111;
         width: 100%;
         height: 58px;
         align-items: center;
@@ -613,8 +621,8 @@ body {
         float: left;
         margin-left: 20px;
         border-radius: 20px;
-        background-color: #2D2D2D;
-        border-color: #1b1b1b;
+        background-color: #111;
+        border-color: #111;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
@@ -640,7 +648,7 @@ body {
             text-align: justify;
             font-family: "Open Sans", sans serif;
             font-size: 100%;
-            color: gray;
+            color: #f25a02;
             text-decoration: underline;
             display: inline-flex;
         }
@@ -660,7 +668,7 @@ body {
             text-align: justify;
             font-family: "Open Sans", sans serif;
             font-size: 120%;
-            color: gray;
+            color: #f25a02;
             text-decoration: underline;
             display: inline-flex;
             padding-top: 10px;
@@ -707,13 +715,10 @@ body {
 
         .pagenumberbutton:hover {
             text-decoration: none;
-            color: #cefcff;
+            color: #f25a02;
             font-family: "Open Sans", sans serif;
             font-weight: bold;
-            transition: 1s;
-            border: 10px;
-            background-color: gray;
-            border-radius: 8px;
+            transition: 0.5s;
         }
 
     .pagenumberleft {
@@ -757,7 +762,25 @@ body {
         visibility: visible;
     }
 
+    .button:hover {
+        text-decoration: none;
+        color: #f25a02;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
+        transition: 0.5s;
+    }
 
+
+
+
+
+
+
+
+
+
+
+    /*----------------------------scrollbar----------------------------------*/
     /* width */
     ::-webkit-scrollbar {
         width: 8px;
@@ -783,7 +806,7 @@ body {
 
     ::selection {
         color: black;
-        background: rgba(189, 239, 252);
+        background: #f25a02;
     }
 
 

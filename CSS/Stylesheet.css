@@ -767,6 +767,7 @@ body {
         padding-right: 13%;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        -moz-background-clip: 
 
     }
 
@@ -774,11 +775,6 @@ body {
         height: 50px;
         padding: 4px 0px 4px 0px;
     }
-
-
-
-
-
 
 
 

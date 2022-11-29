@@ -49,7 +49,7 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        opacity: 10%;
+        opacity: 20%;
     }
 
     pmembers {
@@ -154,7 +154,7 @@ body {
         color: #f25a02;
         font-family: "Open Sans", sans serif;
         font-weight: lighter;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .button {
@@ -256,6 +256,7 @@ body {
             color: #f25a02;
             text-decoration: underline;
             display: inline-flex;
+            transition: 0.3s;
         }
 
     .bloglink {
@@ -278,11 +279,19 @@ body {
             display: inline-flex;
             padding-top: 10px;
             padding-bottom: 10px;
-            transition: 0.5s;
+            transition: 0.3s;
         }
 
     .hr {
         width: 100%;
+        height: 1px;
+        border-width: 0;
+        color: gray;
+        background-color: gray;
+    }
+
+    .hr2 {
+        width: 90%;
         height: 1px;
         border-width: 0;
         color: gray;
@@ -321,7 +330,7 @@ body {
             color: #f25a02;
             font-family: "Open Sans", sans serif;
             font-weight: bold;
-            transition: 1s;
+            transition: 0.3s;
             border: 10px;
             background-color: gray;
             border-radius: 8px;
@@ -348,47 +357,44 @@ body {
         margin-bottom: 5px;
     }
 
-    .linkcopy {
-        position: relative;
-        text-align: justify;
-        font-family: "Open Sans", sans serif;
-        font-size: 100%;
-        color: white;
-        text-decoration: underline;
-        display: inline-flex;
-    }
-
-        .linkcopy .linkcopytext {
-            width: 120px;
-            background-color: black;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-            visibility: hidden;
-            text-align: justify;
-            font-family: "Open Sans", sans serif;
-            font-size: 100%;
-            color: white;
-            text-decoration: underline;
-            position: absolute;
-            z-index: 1;
-        }
-
-        .linkcopy:hover .linkcopytext {
-            visibility: visible;
-        }
 
     ::selection {
         color: black;
         background: #f25a02;
     }
 
+    .navbarleft {
+        display: flex;
+        background-color: #111;
+        width: 100%;
+        height: 58px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbarright {
+        display: flex;
+        background-color: #111;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .imgnavbar {
+        display: flex;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2% 0;
+    }
+
+
 
 
     /*let goed op dit verdomde haakje!!!*/
-
-
 }
 
 
@@ -441,7 +447,7 @@ body {
         transform: translate(-50%, -50%);
         color: white;
         transition: 1s;
-        opacity: 10%;
+        opacity: 20%;
     }
 
     pmembers {
@@ -515,11 +521,6 @@ body {
         font-weight: bold;
     }
 
-    .imgnavbar {
-        height: 50px;
-        padding: 4px 0px 4px 0px;
-    }
-
     .imgfooter {
         width: 100px;
         display: flex;
@@ -533,32 +534,12 @@ body {
         margin-left: 1%;
     }
 
-    .navbarleft {
-        margin-left: 13%;
-        display: flex;
-        justify-content: left;
-        background-color: #111;
-        width: 100%;
-        height: 58px;
-    }
-
-    .navbarright {
-        margin-left: 0%;
-        display: flex;
-        margin-right: 13%;
-        justify-content: flex-end;
-        background-color: #111;
-        width: 100%;
-        height: 58px;
-        align-items: center;
-    }
-
     .button:hover {
         text-decoration: none;
-        color: #cefcff;
+        color: #f25a02;
         font-family: "Open Sans", sans serif;
         font-weight: lighter;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .button {
@@ -566,7 +547,7 @@ body {
         color: white;
         font-family: "Open Sans", sans serif;
         font-weight: lighter;
-        padding: 0px 40px 0px 40px;
+        transition: 0.3s
     }
 
     .button2 {
@@ -614,17 +595,6 @@ body {
         transition: 0.5s;
     }
 
-    /*    .contactboxleft {
-        float: left;
-        border: solid;
-        border-radius: 15px;
-        background-color: #2D2D2D;
-        border-color: #1b1b1b;
-        padding: 20px;
-        display: block;
-        text-align: center;
-    }
-    */
 
     .contactbox {
         float: left;
@@ -651,6 +621,7 @@ body {
         color: white;
         text-decoration: underline;
         display: inline-flex;
+        transition: 0.3s;
     }
 
         .link:hover {
@@ -660,6 +631,7 @@ body {
             color: #f25a02;
             text-decoration: underline;
             display: inline-flex;
+            transition: 0.3s;
         }
 
     .bloglink {
@@ -671,6 +643,7 @@ body {
         display: inline-flex;
         padding-top: 10px;
         padding-bottom: 10px;
+        transition: 0.3s;
     }
 
         .bloglink:hover {
@@ -682,11 +655,19 @@ body {
             display: inline-flex;
             padding-top: 10px;
             padding-bottom: 10px;
-            transition: 0.5s;
+            transition: 0.3s;
         }
 
     .hr {
         width: 100%;
+        height: 1px;
+        border-width: 0;
+        color: gray;
+        background-color: gray;
+    }
+
+    .hr2 {
+        width: 75%;
         height: 1px;
         border-width: 0;
         color: gray;
@@ -698,20 +679,20 @@ body {
         height: 390px;
     }
 
-        .imgcenterdiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-            margin-left: 12%;
+    .imgcenterdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 12%;
         margin-right: 12%;
     }
 
     .imggallery {
         float: left;
         width: 48%;
-    margin: 10px;
+        margin: 10px;
     }
 
     .pagenumberbutton {
@@ -727,7 +708,7 @@ body {
             color: #f25a02;
             font-family: "Open Sans", sans serif;
             font-weight: bold;
-            transition: 0.5s;
+            transition: 0.3s;
         }
 
     .pagenumberleft {
@@ -751,35 +732,37 @@ body {
         margin-bottom: 5px;
     }
 
-    .linkcopy .linkcopytext {
-        background-color: black;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 5px;
-        visibility: hidden;
-        text-align: justify;
-        font-family: "Open Sans", sans serif;
-        font-size: 100%;
-        color: white;
-        position: absolute;
-        z-index: 1;
-        display: inline-flex;
+    .navbarleft {
+        display: flex;
+        background-color: rgba(17,17,17,0.7);
+        height: 58px;
+        align-items: center;
+        float: left;
+        width: 37%;
+        padding-left: 13%;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
     }
 
-    .linkcopy:hover .linkcopytext {
-        visibility: visible;
+    .navbarright {
+        display: flex;
+        background-color: rgba(17,17,17,0.7);
+        align-items: center;
+        height: 58px;
+        float: right;
+        width: 37%;
+        justify-content: flex-end;
+        padding-right: 13%;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
     }
 
-    .button:hover {
-        text-decoration: none;
-        color: #f25a02;
-        font-family: "Open Sans", sans serif;
-        font-weight: lighter;
-        transition: 0.5s;
+    .imgnavbar {
+        height: 50px;
+        padding: 4px 0px 4px 0px;
     }
-
-
 
 
 
@@ -817,8 +800,4 @@ body {
         color: black;
         background: #f25a02;
     }
-
-
-
-
 }

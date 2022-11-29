@@ -16,7 +16,7 @@ body {
         display: flex;
         justify-content: left;
         padding: 5px;
-        background-color: #111;
+        background-color: #0c0c0c;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -31,7 +31,7 @@ body {
         display: flex;
         justify-content: right;
         padding: 5px 10px;
-        background-color: #111;
+        background-color: #0c0c0c;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -207,8 +207,8 @@ body {
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 20px;
-        background-color: #111;
-        border-color: #111;
+        background-color: #0c0c0c;
+        border-color: #0c0c0c;
         padding: 20px;
         flex-direction: column;
         align-content: center;
@@ -365,22 +365,26 @@ body {
 
     .navbarleft {
         display: flex;
-        background-color: #111;
+        background-color: rgba(17,17,17,0.7);
         width: 100%;
         height: 58px;
         justify-content: center;
         align-items: center;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 
     .navbarright {
         display: flex;
-        background-color: #111;
+        background-color: rgba(17,17,17,0.7);
         width: 100%;
         height: auto;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 
     .imgnavbar {
@@ -412,7 +416,7 @@ body {
         display: flex;
         justify-content: left;
         padding: 5px;
-        background-color: #111;
+        background-color: #0c0c0c;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -427,7 +431,7 @@ body {
         display: flex;
         justify-content: right;
         padding: 5px 10px;
-        background-color: #111;
+        background-color: #0c0c0c;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -559,14 +563,14 @@ body {
         transition: 0.3s;
     }
 
-    .button2:hover {
-        display: flex;
-        font-family: "Open Sans", sans serif;
-        font-weight: lighter;
-        text-decoration: none;
-        color: white;
-        transition: 0.3s;
-    }
+        .button2:hover {
+            display: flex;
+            font-family: "Open Sans", sans serif;
+            font-weight: lighter;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
 
     .imgcenter {
         margin-left: auto;
@@ -610,8 +614,8 @@ body {
         float: left;
         margin-left: 20px;
         border-radius: 20px;
-        background-color: #111;
-        border-color: #111;
+        background-color: #0c0c0c;
+        border-color: #0c0c0c;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
@@ -753,7 +757,6 @@ body {
         padding-left: 13%;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-
     }
 
     .navbarright {
@@ -767,8 +770,6 @@ body {
         padding-right: 13%;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        -moz-background-clip: 
-
     }
 
     .imgnavbar {

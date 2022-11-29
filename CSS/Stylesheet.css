@@ -556,6 +556,16 @@ body {
         font-weight: lighter;
         text-decoration: none;
         color: lightgray;
+        transition: 0.3s;
+    }
+
+    .button2:hover {
+        display: flex;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
     }
 
     .imgcenter {
@@ -693,6 +703,7 @@ body {
         float: left;
         width: 48%;
         margin: 10px;
+        transition: 0.3s;
     }
 
     .pagenumberbutton {

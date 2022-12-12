@@ -249,15 +249,15 @@ body {
         display: inline-flex;
     }
 
-        .link:hover {
-            text-align: justify;
-            font-family: "Open Sans", sans serif;
-            font-size: 100%;
-            color: #f25a02;
-            text-decoration: underline;
-            display: inline-flex;
-            transition: 0.3s;
-        }
+    .link:hover {
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 100%;
+        color: #f25a02;
+        text-decoration: underline;
+        display: inline-flex;
+        transition: 0.3s;
+    }
 
     .bloglink {
         text-align: justify;
@@ -270,17 +270,17 @@ body {
         padding-bottom: 10px;
     }
 
-        .bloglink:hover {
-            text-align: justify;
-            font-family: "Open Sans", sans serif;
-            font-size: 120%;
-            color: #f25a02;
-            text-decoration: underline;
-            display: inline-flex;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            transition: 0.3s;
-        }
+    .bloglink:hover {
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 120%;
+        color: #f25a02;
+        text-decoration: underline;
+        display: inline-flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
 
     .hr {
         width: 100%;
@@ -325,16 +325,16 @@ body {
         padding: 10px 10px 10px 10px;
     }
 
-        .pagenumberbutton:hover {
-            text-decoration: none;
-            color: #f25a02;
-            font-family: "Open Sans", sans serif;
-            font-weight: bold;
-            transition: 0.3s;
-            border: 10px;
-            background-color: gray;
-            border-radius: 8px;
-        }
+    .pagenumberbutton:hover {
+        text-decoration: none;
+        color: #f25a02;
+        font-family: "Open Sans", sans serif;
+        font-weight: bold;
+        transition: 0.3s;
+        border: 10px;
+        background-color: gray;
+        border-radius: 8px;
+    }
 
     .pagenumberleft {
         display: flex;
@@ -365,7 +365,7 @@ body {
 
     .navbarleft {
         display: flex;
-        background-color: rgba(17,17,17,0.7);
+        background-color: rgba(17, 17, 17, 0.7);
         width: 100%;
         height: 58px;
         justify-content: center;
@@ -376,7 +376,7 @@ body {
 
     .navbarright {
         display: flex;
-        background-color: rgba(17,17,17,0.7);
+        background-color: rgba(17, 17, 17, 0.7);
         width: 100%;
         height: auto;
         flex-direction: row;
@@ -452,6 +452,7 @@ body {
         color: white;
         transition: 1s;
         opacity: 20%;
+        animation: fadeIn20 10s;
     }
 
     pmembers {
@@ -563,14 +564,14 @@ body {
         transition: 0.3s;
     }
 
-        .button2:hover {
-            display: flex;
-            font-family: "Open Sans", sans serif;
-            font-weight: lighter;
-            text-decoration: none;
-            color: white;
-            transition: 0.3s;
-        }
+    .button2:hover {
+        display: flex;
+        font-family: "Open Sans", sans serif;
+        font-weight: lighter;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
 
     .imgcenter {
         margin-left: auto;
@@ -638,15 +639,15 @@ body {
         transition: 0.3s;
     }
 
-        .link:hover {
-            text-align: justify;
-            font-family: "Open Sans", sans serif;
-            font-size: 100%;
-            color: #f25a02;
-            text-decoration: underline;
-            display: inline-flex;
-            transition: 0.3s;
-        }
+    .link:hover {
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 100%;
+        color: #f25a02;
+        text-decoration: underline;
+        display: inline-flex;
+        transition: 0.3s;
+    }
 
     .bloglink {
         text-align: justify;
@@ -660,17 +661,17 @@ body {
         transition: 0.3s;
     }
 
-        .bloglink:hover {
-            text-align: justify;
-            font-family: "Open Sans", sans serif;
-            font-size: 120%;
-            color: #f25a02;
-            text-decoration: underline;
-            display: inline-flex;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            transition: 0.3s;
-        }
+    .bloglink:hover {
+        text-align: justify;
+        font-family: "Open Sans", sans serif;
+        font-size: 120%;
+        color: #f25a02;
+        text-decoration: underline;
+        display: inline-flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
 
     .hr {
         width: 100%;
@@ -685,7 +686,7 @@ body {
         height: 1px;
         border-width: 0;
         color: gray;
-        background-color: gray;
+        background-color: #333;
     }
 
     .youtube {
@@ -718,13 +719,13 @@ body {
         padding: 10px 10px 10px 10px;
     }
 
-        .pagenumberbutton:hover {
-            text-decoration: none;
-            color: #f25a02;
-            font-family: "Open Sans", sans serif;
-            font-weight: bold;
-            transition: 0.3s;
-        }
+    .pagenumberbutton:hover {
+        text-decoration: none;
+        color: #f25a02;
+        font-family: "Open Sans", sans serif;
+        font-weight: bold;
+        transition: 0.3s;
+    }
 
     .pagenumberleft {
         display: flex;
@@ -749,7 +750,7 @@ body {
 
     .navbarleft {
         display: flex;
-        background-color: rgba(17,17,17,0.7);
+        background-color: rgba(17, 17, 17, 0.7);
         height: 58px;
         align-items: center;
         float: left;
@@ -757,11 +758,12 @@ body {
         padding-left: 13%;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        animation: fadeIn 0.5s;
     }
 
     .navbarright {
         display: flex;
-        background-color: rgba(17,17,17,0.7);
+        background-color: rgba(17, 17, 17, 0.7);
         align-items: center;
         height: 58px;
         float: right;
@@ -770,6 +772,7 @@ body {
         padding-right: 13%;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        animation: fadeIn 0.5s;
     }
 
     .imgnavbar {
@@ -778,7 +781,25 @@ body {
     }
 
 
+    @keyframes fadeIn20 {
+        0% {
+            opacity: 0;
+        }
 
+        20% {
+            opacity: 0.2;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
 
     /*----------------------------scrollbar----------------------------------*/
     /* width */
@@ -799,10 +820,10 @@ body {
         width: 8px;
     }
 
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
 
     ::selection {
         color: black;

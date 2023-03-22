@@ -11,5 +11,34 @@
 <link href="css/stylesheet.css" rel="stylesheet">
 
 <body>
-    kanker
+    <script>
+        $(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+
+<body>
+    <div id="navbar-placeholder">
+    </div>
+
+    <style>
+        .parallax {
+            background-image: url("images/DSC08673.JPG");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: -1;
+            animation: fadeIn 0.5s;
+        }
+    </style>
+    
+    <div class="parallax">
+        <div class="parallaxcenter">ankerd</div>
+    </div>
+    
 </body>

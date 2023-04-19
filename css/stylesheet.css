@@ -86,13 +86,17 @@ header1 {
 
 .black {
     background-color: black;
+    color: white;
 }
 
 .orange {
     background-color: orangered;
 }
 
-
+.videocard {
+    border-radius: 5px;
+    
+}
 
 
 

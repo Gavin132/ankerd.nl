@@ -94,6 +94,16 @@ body {
         color: white;
     }
 
+    p3 {
+        display: flex;
+        font-family: "Open Sans", sans serif;
+        text-align: center;
+        font-size: 100%;
+        color: white;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+
     pcontact {
         font-family: "Open Sans", sans serif;
         color: white;
@@ -357,12 +367,6 @@ body {
         margin-bottom: 5px;
     }
 
-
-    ::selection {
-        color: black;
-        background: #f25a02;
-    }
-
     .navbarleft {
         display: flex;
         background-color: rgba(17, 17, 17, 0.7);
@@ -395,8 +399,19 @@ body {
         padding: 2% 0;
     }
 
+    .youtube {
+        width: 576px;
+        height: 324px;
+        border-left-width: 10px;
+        border-left-style: solid;
+        border-color: rgb(178, 236, 255);
+        border-radius: 10px;
+    }
 
-
+    ::selection {
+        color: black;
+        background: #bbf3fd
+    }
 
     /*let goed op dit verdomde haakje!!!*/
 }
@@ -506,15 +521,29 @@ body {
     }
 
     p2 {
-        display: block;
+        display: flex;
         font-family: "Open Sans", sans serif;
         text-align: center;
         margin-left: 13%;
         margin-right: 13%;
         font-size: 100%;
         color: white;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
+    p3 {
+        display: flex;
+        font-family: "Open Sans", sans serif;
+        text-align: center;
+        font-size: 100%;
+        color: white;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 13%;
+        padding-right: 13%;
+        padding-bottom: 50px;
+    }
 
     .header2 {
         display: block;
@@ -690,8 +719,13 @@ body {
     }
 
     .youtube {
-        width: 640px;
-        height: 390px;
+        width: 576px;
+        height: 324px;
+        border-left-width: 10px;
+        border-left-style: solid;
+        border-color: rgb(178, 236, 255);
+        border-radius: 10px;
+        margin: 15px;
     }
 
     .imgcenterdiv {
@@ -779,7 +813,6 @@ body {
         height: 50px;
         padding: 4px 0px 4px 0px;
     }
-
 
     @keyframes fadeIn20 {
         0% {

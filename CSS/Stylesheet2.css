@@ -1,0 +1,38 @@
+nav {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	align-content: center;
+
+}
+
+.logo img {
+	height: 50px;
+	filter: blur(5px) brightness(0.8);
+	background-color: #fafafa;
+	width: fit-content;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	filter: blur(5px) brightness(0.8);
+	background-color: #fafafa;
+	width: max-content;
+	width: fit-content;
+}
+
+	.links a {
+		color: white;
+		text-decoration: none;
+		margin-left: 20px;
+	}
+
+body {
+	background-image: url("/images/DSC08611.JPG");
+}

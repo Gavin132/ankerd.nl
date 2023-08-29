@@ -295,6 +295,7 @@ body {
         padding-top: 10px;
         padding-bottom: 10px;
         text-underline-offset: 2px;
+        text-decoration-color: #bbf3fd;
     }
 
     .bloglink:hover {
@@ -432,6 +433,48 @@ body {
         color: black;
         background: #bbf3fd
     }
+
+    .parallaxbottom {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: downarrow 2500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function:ease-in-out;  
+    }
+
+@keyframes downarrow {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateY(500px)
+    }
+
+    80% {
+        opacity: 0;
+
+    }
+
+    90% {
+        transform: translateY(500px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
 
     /*let goed op dit verdomde haakje!!!*/
 }
@@ -740,6 +783,7 @@ body {
         padding-bottom: 10px;
         transition: 0.3s;
         text-underline-offset: 2px;
+        text-decoration-color: #bbf3fd;
     }
 
     .bloglink:hover {
@@ -862,9 +906,49 @@ body {
         animation: fadeIn 0.5s;
     }
 
+
+    .parallaxbottom {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: downarrow 2500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function:ease-in-out;
+    }
+
     .imgnavbar {
         height: 50px;
         padding: 4px 0px 4px 0px;
+    }
+
+    @keyframes downarrow {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        75% {
+            opacity: 1;
+            transform: translateY(500px)
+        }
+
+        80% {
+            opacity: 0;
+
+        }
+
+        90% {
+            transform: translateY(500px);
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
     @keyframes fadeIn20 {

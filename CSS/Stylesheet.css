@@ -473,8 +473,47 @@ body {
     }
 }
 
+.blogcardcenter {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+  }
 
+  .blogcard {
+    width: 100%;
+    margin: 0 0 20px 0;
+    text-decoration: none !important;
 
+  }
+
+  .imgblog {
+    width: 90%;
+    height: auto;
+    text-decoration: none !important;
+    object-fit: cover;
+    height: 25%;
+  }
+
+  .bottom-left {
+    position: relative;
+    text-decoration: none !important;
+    font-family: "Open Sans", sans serif;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.3s;
+    z-index: 1;
+    width: 100%;
+    bottom: 30px;
+  }
+
+  .bottom-left:hover {
+    color: #bbf3fd;
+    transition: 0.3s;
+    z-index: 3;
+    text-decoration: none !important;
+  }
 
     /*let goed op dit verdomde haakje!!!*/
 }
@@ -533,7 +572,7 @@ body {
     .bottom-left {
         position: relative;
         bottom: 31px;
-        left: 14px;
+        left: 5px;
         text-decoration: none;
         font-family: "Open Sans", sans serif;
         color: white;
@@ -548,7 +587,7 @@ body {
         transition: 0.3s;
         z-index: 3;
         bottom: 30px;
-        left: 10px;
+        left: 5px;
         text-decoration: none;
       }
 

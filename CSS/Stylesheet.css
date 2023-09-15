@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     background-color: #000;
-    
+
 }
 
 /*mobile css*/
@@ -103,7 +103,7 @@ body {
         color: white;
         flex-wrap: wrap;
         justify-content: center;
-    }   
+    }
 
     pcontact {
         font-family: "Open Sans", sans serif;
@@ -236,10 +236,14 @@ body {
     .contactbox::before {
         content: "";
         position: absolute;
-        top: 3px; /* Adjust the value to shift it down */
-        left: 3px; /* Adjust the value to shift it right */
-        right: -7px; /* Adjust the value to shift it left */
-        bottom: -7px; /* Adjust the value to shift it up (thank you chatgpt)*/
+        top: 3px;
+        /* Adjust the value to shift it down */
+        left: 3px;
+        /* Adjust the value to shift it right */
+        right: -7px;
+        /* Adjust the value to shift it left */
+        bottom: -7px;
+        /* Adjust the value to shift it up (thank you chatgpt)*/
         border-radius: 20px;
         background-color: rgba(56, 56, 56, 0.5);
         z-index: -1;
@@ -441,79 +445,79 @@ body {
         transform: translate(-50%, -50%);
         animation: downarrow 2500ms;
         animation-iteration-count: infinite;
-        animation-timing-function:ease-in-out;  
+        animation-timing-function: ease-in-out;
     }
 
-@keyframes downarrow {
-    0% {
-        opacity: 0;
+    @keyframes downarrow {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        75% {
+            opacity: 1;
+            transform: translateY(500px)
+        }
+
+        80% {
+            opacity: 0;
+
+        }
+
+        90% {
+            transform: translateY(500px);
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
-    25% {
-        opacity: 1;
+    .blogcardcenter {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
     }
 
-    75% {
-        opacity: 1;
-        transform: translateY(500px)
-    }
-
-    80% {
-        opacity: 0;
+    .blogcard {
+        width: 100%;
+        margin: 0 0 20px 0;
+        text-decoration: none !important;
 
     }
 
-    90% {
-        transform: translateY(500px);
-        opacity: 0;
+    .imgblog {
+        width: 90%;
+        height: auto;
+        text-decoration: none !important;
+        object-fit: cover;
+        height: 25%;
     }
 
-    100% {
-        opacity: 0;
+    .bottom-left {
+        position: relative;
+        text-decoration: none !important;
+        font-family: "Open Sans", sans serif;
+        color: white;
+        font-weight: bold;
+        font-size: larger;
+        transition: 0.3s;
+        z-index: 1;
+        width: 100%;
+        bottom: 30px;
     }
-}
 
-.blogcardcenter {
-    flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 100%;
-  }
-
-  .blogcard {
-    width: 100%;
-    margin: 0 0 20px 0;
-    text-decoration: none !important;
-
-  }
-
-  .imgblog {
-    width: 90%;
-    height: auto;
-    text-decoration: none !important;
-    object-fit: cover;
-    height: 25%;
-  }
-
-  .bottom-left {
-    position: relative;
-    text-decoration: none !important;
-    font-family: "Open Sans", sans serif;
-    color: white;
-    font-weight: bold;
-    font-size: larger;
-    transition: 0.3s;
-    z-index: 1;
-    width: 100%;
-    bottom: 30px;
-  }
-
-  .bottom-left:hover {
-    color: #bbf3fd;
-    transition: 0.3s;
-    z-index: 3;
-    text-decoration: none !important;
-  }
+    .bottom-left:hover {
+        color: #bbf3fd;
+        transition: 0.3s;
+        z-index: 3;
+        text-decoration: none !important;
+    }
 
     /*let goed op dit verdomde haakje!!!*/
 }
@@ -527,6 +531,90 @@ body {
 
 /*---------------------------------------------------pc css------------------------------------------------*/
 @media screen and (min-width: 1201px) {
+    .homecenter {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+
+    .imagep {
+        width: 30em;
+    }
+
+    .imagehome {
+        width: 100%;
+    }
+
+    .bluebox100 {
+        background-color: #4cd2a6;
+        text-align: center;
+        overflow-y: auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    header100 {
+        font-size: 2em;
+        color: white;
+        font-weight: bolder;
+        font-family: "poppins", sans serif;
+        text-decoration: underline;
+        text-decoration-thickness: 0.05em;
+        margin-top: 1em;
+    }
+
+    p {
+        display: block;
+        font-family: "Poppins", sans serif;
+        font-size: 100%;
+        color: white;
+        margin: 0%;
+        font-size: 1.1em;
+    }
+
+    .center {
+        text-align: center;
+
+    }
+
+    .left {
+        text-align: left;
+
+    }
+
+    .right {
+        text-align: right;
+
+    }
+
+    .subscript {
+        font-family: 'Poppins', sans serif;
+        font-weight: lighter;
+        color: lightgray;
+        font-size: medium;
+    }
+
+    .youtubeslider {
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .youtube {
+        width: 576px;
+        height: 324px;
+        /*        border-left-width: 10px;
+        border-left-style: solid;
+        border-color: rgb(178, 236, 255);
+        border-radius: 10px;*/
+    }
+
+
     .blogcardcenter {
         position: relative;
         display: flex;
@@ -562,7 +650,7 @@ body {
 
     .blogcard:hover {
         z-index: 2;
-        margin: 10px; 
+        margin: 10px;
         float: left;
         width: 31%;
         transition: 0.2s;
@@ -580,7 +668,7 @@ body {
         font-size: larger;
         transition: 0.3s;
         z-index: 1;
-      }
+    }
 
     .bottom-left:hover {
         color: #bbf3fd;
@@ -589,7 +677,7 @@ body {
         bottom: 30px;
         left: 5px;
         text-decoration: none;
-      }
+    }
 
 
 
@@ -660,14 +748,7 @@ body {
         padding-top: 12px;
     }
 
-    p {
-        display: block;
-        font-family: "Open Sans", sans serif;
-        font-size: 100%;
-        color: white;
-        margin-left: 13%;
-        margin-right: 13%;
-    }
+
 
     .header {
         display: block;
@@ -740,22 +821,23 @@ body {
     .button:hover {
         text-decoration: none;
         color: rgb(178, 236, 255);
-        font-family: "Open Sans", sans serif;
+        font-family: "Poppins", sans serif;
         font-weight: lighter;
+        font-weight: bold;
         transition: 0.3s;
     }
 
     .button {
         text-decoration: none;
         color: white;
-        font-family: "Open Sans", sans serif;
-        font-weight: lighter;
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
         transition: 0.3s
     }
 
     .button2 {
         display: flex;
-        font-family: "Open Sans", sans serif;
+        font-family: "Poppins", sans serif;
         font-weight: lighter;
         text-decoration: none;
         color: lightgray;
@@ -764,7 +846,7 @@ body {
 
     .button2:hover {
         display: flex;
-        font-family: "Open Sans", sans serif;
+        font-family: "Poppins", sans serif;
         font-weight: lighter;
         text-decoration: none;
         color: white;
@@ -826,14 +908,18 @@ body {
         transition: 0.5s;
         position: relative;
     }
-    
+
     .contactbox::before {
         content: "";
         position: absolute;
-        top: 3px; /* Adjust the value to shift it down */
-        left: 3px; /* Adjust the value to shift it right */
-        right: -7px; /* Adjust the value to shift it left */
-        bottom: -7px; /* Adjust the value to shift it up */
+        top: 3px;
+        /* Adjust the value to shift it down */
+        left: 3px;
+        /* Adjust the value to shift it right */
+        right: -7px;
+        /* Adjust the value to shift it left */
+        bottom: -7px;
+        /* Adjust the value to shift it up */
         border-radius: 20px;
         background-color: rgba(56, 56, 56, 0.5);
         z-index: -1;
@@ -854,7 +940,8 @@ body {
         text-align: justify;
         font-family: "Open Sans", sans serif;
         font-size: 100%;
-        color: rgb(178, 236, 255);;
+        color: rgb(178, 236, 255);
+        ;
         text-decoration: underline;
         display: inline-flex;
         transition: 0.3s;
@@ -878,7 +965,8 @@ body {
         text-align: justify;
         font-family: "Open Sans", sans serif;
         font-size: 120%;
-        color: rgb(178, 236, 255);;
+        color: rgb(178, 236, 255);
+        ;
         text-decoration: underline;
         display: inline-flex;
         padding-top: 10px;
@@ -903,15 +991,7 @@ body {
         background-color: #333;
     }
 
-    .youtube {
-        width: 576px;
-        height: 324px;
-        border-left-width: 10px;
-        border-left-style: solid;
-        border-color: rgb(178, 236, 255);
-        border-radius: 10px;
-        margin: 15px;
-    }
+
 
     .imgcenterdiv {
         display: flex;
@@ -1002,7 +1082,7 @@ body {
         transform: translate(-50%, -50%);
         animation: downarrow 2500ms;
         animation-iteration-count: infinite;
-        animation-timing-function:ease-in-out;
+        animation-timing-function: ease-in-out;
     }
 
     .imgnavbar {

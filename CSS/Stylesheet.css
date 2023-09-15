@@ -692,8 +692,8 @@ body {
         display: flex;
         font-family: "Open Sans", sans serif;
         text-align: center;
-        margin-left: 13%;
-        margin-right: 13%;
+        margin-left: 18%;
+        margin-right: 18%;
         font-size: 100%;
         color: white;
         flex-wrap: wrap;
@@ -896,7 +896,7 @@ body {
     }
 
     .hr2 {
-        width: 75%;
+        width: 66%;
         height: 1px;
         border-width: 0;
         color: gray;

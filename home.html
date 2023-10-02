@@ -24,19 +24,38 @@
     </div>
 
     <style>
-        .parallax {
-            background-image: url("images/officalankerdbanner20232.png");
-            height: 60%;
-            background-attachment: fixed;
-            background-position: 0px -230px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-clip: initial;
-            margin-left: auto;
-            margin-right: auto;
-            position: relative;
-            z-index: -1;
-            animation: fadeIn 0.5s;
+        @media screen and (max-width: 1200px) {
+            .parallax {
+                background-image: url("images/officalankerdbanner20232.png");
+                height: 50%;
+                background-attachment: fixed;
+                background-position: 0px -230px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-clip: initial;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                z-index: -1;
+                animation: fadeIn 0.5s;
+            }
+        }
+
+        @media screen and (min-width: 1201px) {
+            .parallax {
+                background-image: url("images/officalankerdbanner20232.png");
+                height: 60%;
+                background-attachment: fixed;
+                background-position: 0px -230px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-clip: initial;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                z-index: -1;
+                animation: fadeIn 0.5s;
+            }
         }
     </style>
 
@@ -60,7 +79,7 @@
             </p>
         </div>
         <div style="width: 100%;" class="center">
-            <iframe style="width: 100%; margin-left: 15px;" class="youtube"
+            <iframe style="width: 100%;" class="youtube"
                 src="https://www.youtube.com/embed/ZiWUpSkJNaU?enablejsapi=1&origin=https://www.ankerd.nl"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -145,28 +164,22 @@
             <p>All of our convention videos</p>
         </div>
     </div>
-    <div class="youtubeslider">
-        <iframe class="youtube" src="https://www.youtube.com/embed/jpN2HFF6obI?enablejsapi=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <iframe class="youtube" src="https://www.youtube.com/embed/AhP54tGk5E4?enablejsapi=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <iframe class="youtube" src="https://www.youtube.com/embed/ZiWUpSkJNaU?enablejsapi=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <iframe class="youtube" src="https://www.youtube.com/embed/-cxHPnH4moI?enablejsapi=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <iframe class="youtube" src="https://www.youtube.com/embed/2qfkxgsiCxQ?enablejsapi=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+
+    <div class="bluebox shadow" style="padding-bottom: 2em;">
+        <div class="youtubeslider">
+            <iframe class="youtube2" src="https://www.youtube.com/embed/ZiWUpSkJNaU?enablejsapi=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/-cxHPnH4moI?enablejsapi=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="youtube2" src="https://www.youtube.com/embed/2qfkxgsiCxQ?enablejsapi=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </div>
 
     <div class="homecenter" style="flex-direction: column;">

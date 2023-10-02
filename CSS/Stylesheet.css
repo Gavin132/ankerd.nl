@@ -19,6 +19,7 @@ body {
         margin-right: 5%;
         margin-top: 3em;
         margin-bottom: 3em;
+        align-items: center;
     }
 
     .homelink {
@@ -39,8 +40,6 @@ body {
         background-color: #8dc1ca;
         text-align: center;
         overflow-y: auto;
-        margin-top: 2em;
-        margin-bottom: 2em;
     }
 
     .whitebox {
@@ -62,7 +61,6 @@ body {
 
     .center {
         text-align: center;
-
     }
 
     .left {
@@ -84,20 +82,21 @@ body {
 
     .youtubeslider {
         display: flex;
+        align-items: center;
         justify-content: center;
-        width: fit-content;
-        position: relative;
-        overflow: hidden;
     }
 
     .youtube {
-        height: 300px !important;
-        width: 90% !important;
-        /*        border-left-width: 10px;
-        border-left-style: solid;
-        border-color: rgb(178, 236, 255);
-        border-radius: 10px;*/
+        width: 90%;
+        height: 250px !important;
+        border-radius: 10px;
+        margin-bottom: 1em;
     }
+
+    .youtube2 {
+        display: none;
+    }
+
 
     .footerleft {
         float: left;
@@ -105,7 +104,7 @@ body {
         display: flex;
         justify-content: left;
         padding: 5px;
-        background-color: #0c0c0c;
+        background-color: #222222;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -120,7 +119,7 @@ body {
         display: flex;
         justify-content: right;
         padding: 5px 10px;
-        background-color: #0c0c0c;
+        background-color: #222222;
         color: lightgray;
         font-family: "Open Sans", sans serif;
         font-style: italic;
@@ -402,15 +401,6 @@ body {
         background-color: gray;
     }
 
-    .youtube {
-        width: 90%;
-        height: 25%;
-        border-left-width: 10px;
-        border-left-style: solid;
-        border-color: rgb(178, 236, 255);
-        border-radius: 10px;
-        margin: 15px;
-    }
 
     .imgcenterdiv {
         display: flex;
@@ -621,8 +611,6 @@ body {
         background-color: #8dc1ca;
         text-align: center;
         overflow-y: auto;
-        margin-top: 2em;
-        margin-bottom: 2em;
     }
 
     .whitebox {
@@ -676,18 +664,31 @@ body {
     .youtubeslider {
         display: flex;
         justify-content: center;
-        width: fit-content;
-        position: relative;
-        overflow: hidden;
+        align-items: center;
     }
 
     .youtube {
         height: 18em;
         width: 32em;
-        /*        border-left-width: 10px;
+        margin: 2em;
+        /*
+        border-left-width: 10px;
         border-left-style: solid;
         border-color: rgb(178, 236, 255);
-        border-radius: 10px;*/
+        */
+        border-radius: 10px;
+    }
+
+    .youtube2 {
+        height: 18em;
+        width: 32em;
+        margin: 2em;
+        /*
+        border-left-width: 10px;
+        border-left-style: solid;
+        border-color: rgb(178, 236, 255);
+        */
+        border-radius: 10px;
     }
 
 

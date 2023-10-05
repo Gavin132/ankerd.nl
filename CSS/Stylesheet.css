@@ -11,6 +11,28 @@ body {
 
 /*mobile css*/
 @media screen and (max-width: 1200px) {
+    .navbar {
+        display: flex;
+        background-color: rgba(17, 17, 17, 0.3);
+        backdrop-filter: saturate(140%) blur(10px);
+        -webkit-backdrop-filter: saturate(140%) blur(10px);
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+    }
+
+    .imgnavbar {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbarlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .homecenter {
         flex-direction: column;
         display: flex;
@@ -214,55 +236,26 @@ body {
         color: white;
     }
 
-    .imgnavbar {
-        display: flex;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 2% 0;
-    }
-
     .imgfooter {
         display: flex;
         width: 50%;
     }
 
-    .navbarleft {
-        display: flex;
-        background-color: #111;
-        width: 100%;
-        height: 58px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbarright {
-        display: flex;
-        background-color: #111;
-        width: 100%;
-        height: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     .button:hover {
         text-decoration: none;
         color: rgb(178, 236, 255);
-        font-family: "Open Sans", sans serif;
+        font-family: "Poppins", sans serif;
         font-weight: lighter;
+        font-weight: bold;
         transition: 0.3s;
     }
 
     .button {
         text-decoration: none;
         color: white;
-        font-family: "Open Sans", sans serif;
-        font-weight: lighter;
-        padding: 0px 10px 0px 10px;
-        padding-top: 5px;
-        padding-bottom: 15px;
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
+        transition: 0.3s
     }
 
     .button2 {
@@ -453,39 +446,6 @@ body {
         margin-bottom: 5px;
     }
 
-    .navbarleft {
-        display: flex;
-        background-color: rgba(17, 17, 17, 0.7);
-        width: 100%;
-        height: 58px;
-        justify-content: center;
-        align-items: center;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-    }
-
-    .navbarright {
-        display: flex;
-        background-color: rgba(17, 17, 17, 0.7);
-        width: 100%;
-        height: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-    }
-
-    .imgnavbar {
-        display: flex;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 2% 0;
-    }
-
-
     ::selection {
         color: black;
         background: #bbf3fd
@@ -584,6 +544,31 @@ body {
 
 /*---------------------------------------------------pc css------------------------------------------------*/
 @media screen and (min-width: 1201px) {
+    .navbar {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: saturate(180%) blur(10px);
+        -webkit-backdrop-filter: saturate(180%) blur(10px);
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        height: 58px;
+    }
+
+    .imgnavbar {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbarlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .homecenter {
         flex-direction: row;
         display: flex;
@@ -1106,33 +1091,6 @@ body {
         margin-bottom: 5px;
     }
 
-    .navbarleft {
-        display: flex;
-        background-color: rgba(17, 17, 17, 0.7);
-        height: 58px;
-        align-items: center;
-        float: left;
-        width: 37%;
-        padding-left: 13%;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        animation: fadeIn 0.5s;
-    }
-
-    .navbarright {
-        display: flex;
-        background-color: rgba(17, 17, 17, 0.7);
-        align-items: center;
-        height: 58px;
-        float: right;
-        width: 37%;
-        justify-content: flex-end;
-        padding-right: 13%;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        animation: fadeIn 0.5s;
-    }
-
 
     .parallaxbottom {
         position: absolute;
@@ -1144,10 +1102,6 @@ body {
         animation-timing-function: ease-in-out;
     }
 
-    .imgnavbar {
-        height: 50px;
-        padding: 4px 0px 4px 0px;
-    }
 
     @keyframes downarrow {
         0% {

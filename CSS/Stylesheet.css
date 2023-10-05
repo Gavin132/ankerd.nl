@@ -17,7 +17,6 @@ body {
         backdrop-filter: saturate(140%) blur(10px);
         -webkit-backdrop-filter: saturate(140%) blur(10px);
         align-items: center;
-        justify-content: center;
         position: sticky;
     }
 
@@ -25,6 +24,7 @@ body {
         height: 40px;
         display: flex;
         align-items: center;
+        justify-content: left;
     }
 
     .navbarlinks {
@@ -550,7 +550,6 @@ body {
         backdrop-filter: saturate(180%) blur(10px);
         -webkit-backdrop-filter: saturate(180%) blur(10px);
         align-items: center;
-        justify-content: center;
         position: absolute;
         width: 100%;
         z-index: 1;
@@ -558,15 +557,33 @@ body {
     }
 
     .imgnavbar {
-        height: 40px;
         display: flex;
         align-items: center;
+        width: 50%;
+    }
+
+    .button:hover {
+        text-decoration: none;
+        color: rgb(178, 236, 255);
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .button {
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins", sans serif;
+        font-weight: bold;
+        transition: 0.3s;
+        padding: 10px;
     }
 
     .navbarlinks {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
+        width: 50%;
     }
 
     .homecenter {
@@ -655,7 +672,6 @@ body {
     .youtube {
         height: 18em;
         width: 32em;
-        margin: 2em;
         border-left-width: 10px;
         border-left-style: solid;
         border-color: rgb(255, 255, 255);
@@ -877,22 +893,7 @@ body {
         margin-left: 1%;
     }
 
-    .button:hover {
-        text-decoration: none;
-        color: rgb(178, 236, 255);
-        font-family: "Poppins", sans serif;
-        font-weight: lighter;
-        font-weight: bold;
-        transition: 0.3s;
-    }
 
-    .button {
-        text-decoration: none;
-        color: white;
-        font-family: "Poppins", sans serif;
-        font-weight: bold;
-        transition: 0.3s
-    }
 
     .button2 {
         display: flex;

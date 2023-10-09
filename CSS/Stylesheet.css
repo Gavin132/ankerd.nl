@@ -17,7 +17,7 @@ body {
         backdrop-filter: saturate(140%) blur(10px);
         -webkit-backdrop-filter: saturate(140%) blur(10px);
         align-items: center;
-        position: sticky;
+        position: relative;
     }
 
     .imgnavbar {
@@ -546,9 +546,9 @@ body {
 @media screen and (min-width: 1201px) {
     .navbar {
         display: flex;
-        background-color: rgba(0, 0, 0, 0.8);
-        backdrop-filter: saturate(180%) blur(10px);
-        -webkit-backdrop-filter: saturate(180%) blur(10px);
+        background-color: rgba(19, 19, 19, 0.8);
+        backdrop-filter: saturate(100%) blur(10px);
+        -webkit-backdrop-filter: saturate(100%) blur(10px);
         align-items: center;
         position: absolute;
         width: 100%;

@@ -11,6 +11,10 @@ body {
 
 /*mobile css*/
 @media screen and (max-width: 1200px) {
+.mobilehidden{
+    display: none;
+}
+
     .navbar {
         display: flex;
         background-color: rgba(17, 17, 17, 0.3);
@@ -18,6 +22,7 @@ body {
         -webkit-backdrop-filter: saturate(140%) blur(10px);
         align-items: center;
         position: relative;
+        justify-content: space-around;
     }
 
     .imgnavbar {
@@ -29,8 +34,7 @@ body {
 
     .navbarlinks {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .homecenter {
@@ -114,11 +118,6 @@ body {
         border-radius: 10px;
         margin-bottom: 1em;
     }
-
-    .youtube2 {
-        display: none;
-    }
-
 
     .footerleft {
         float: left;
@@ -510,6 +509,7 @@ body {
         text-decoration: none !important;
         object-fit: cover;
         height: 25%;
+        border-radius: 10px;
     }
 
     .bottom-left {
@@ -523,6 +523,7 @@ body {
         z-index: 1;
         width: 100%;
         bottom: 30px;
+        padding-left: 5px;
     }
 
     .bottom-left:hover {
@@ -707,16 +708,6 @@ body {
         border-radius: 10px;
     }
 
-    .youtube2 {
-        height: 18em;
-        width: 32em;
-        margin: 2em;
-        border-left-width: 10px;
-        border-left-style: solid;
-        border-color: #bbf3fd;
-        border-radius: 10px;
-    }
-
     .blogcardcenter {
         position: relative;
         display: flex;
@@ -744,6 +735,7 @@ body {
         text-decoration: none;
         height: 300px;
         object-fit: cover;
+        border-radius: 10px;
     }
 
     .imgblog:hover {
@@ -850,8 +842,6 @@ body {
         padding-top: 12px;
     }
 
-
-
     .header {
         display: block;
         font-family: "Poppins", sans serif;
@@ -919,8 +909,6 @@ body {
         font-weight: lighter;
         margin-left: 1%;
     }
-
-
 
     .button2 {
         display: flex;
@@ -1063,8 +1051,6 @@ body {
         margin-bottom: -3em;
     }
 
-
-
     .imgcenterdiv {
         display: flex;
         align-items: center;
@@ -1119,7 +1105,6 @@ body {
         margin-bottom: 5px;
     }
 
-
     .parallaxbottom {
         position: absolute;
         bottom: 5%;
@@ -1129,7 +1114,6 @@ body {
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
-
 
     @keyframes downarrow {
         0% {

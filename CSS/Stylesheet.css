@@ -653,7 +653,7 @@ body {
         position: relative;
         overflow: hidden;
         background-color: #fcfcfc;
-        z-index: -1;
+        z-index: 0;
     }
 
     .bluebox:before {

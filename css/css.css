@@ -148,11 +148,31 @@ body {
     display: none;
   }
 
+  .textflex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .ribbon {
     width: 100%;
     height: 1%;
     border-radius: 25px;
     margin-bottom: 5%;
+  }
+
+  .textyt {
+    width: 100%;
+  }
+
+  .youtube {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .video {
+    width: 100%;
+    height: 145%;
   }
 
   .rightnav {
@@ -178,6 +198,17 @@ body {
 
   .mainalign {
     display: flex;
+  }
+
+  .textflex {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .video {
+    width: 100%;
+    height: 12em;
   }
 
   .pseudoleftnav {
@@ -221,6 +252,11 @@ body {
 
   .maincontent {
     width: 60%;
+  }
+
+  .video {
+    width: 25.6em;
+    height: 14.4em;
   }
 
   .paddingmain {

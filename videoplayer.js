@@ -1,3 +1,3 @@
-document.getElementById('playBtn').addEventListener('click', () => {
+function videoplayer() {
   document.getElementById('hiddenvideoplayer').style.display = 'flex';
-});
+}

@@ -8,14 +8,18 @@
     <script src="videoplayer.js"></script>
 
 </head>
+
+
+
 <title>Home</title>
 <link rel="icon" href="images/a-ankerdlogo2025.png">
 <link href="css/css.css" rel="stylesheet">
 
 <!-- de youtube video popout -->
-<div style="display:none;" class="justify-content-center" id="hiddenvideoplayer">
-    <iframe class="background-video-popout" src="https://www.youtube.com/embed/rsfzFnc1q7E?si=Wn7LPVHvxuZsvIo7&amp;controls=0"
-        title="YouTube video player" frameborder="0"
+<div style="display:none;" id="hiddenvideoplayer">
+    <iframe class="background-video-popout"
+        src="https://www.youtube.com/embed/rsfzFnc1q7E?si=Wn7LPVHvxuZsvIo7&amp;controls=0" title="YouTube video player"
+        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
@@ -48,14 +52,13 @@
                 <video class="backgroundvideo" src="images/introvideo.mp4" autoplay muted loop playsinline></video>
                 <div class="video-overlay"></div>
                 <div class="playbutton justify-content-center align-items-center">
-                    <img id="playBtn"
+                    <img id="playBtn" onclick="videoplayer()"
                         style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);"
                         src="/images/circle-play-solid.svg"></img>
                 </div>
             </div>
             <div style="color: gray;" class="poppins-light">
                 tomofair 2025 februari
-            </div>
             </div>
 
             <div class="spacer"></div>
@@ -91,7 +94,14 @@
         </div>
     </div>
 </div>
+</div>
 
 <div class="footer">
 
 </div>
+
+<!-- <script>
+document.getElementById('playBtn').addEventListener('click', () => {
+  document.getElementById('hiddenvideoplayer').style.display = 'flex';
+});
+</script> -->

@@ -134,15 +134,19 @@ body {
   color: black;
 }
 
-.fontsize150 {
+.fontsize150p {
   font-size: 150%;
+}
+
+.fontsize120p {
+  font-size: 120%;
 }
 
 .header {
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 125%;
+  font-size: 135%;
   color: var(--turq);
 }
 
@@ -217,19 +221,13 @@ body {
     flex-direction: row;
   }
 
-
-  .video {
-    width: 100%;
-    height: 12em;
-  }
-
   .pseudoleftnav {
-    background-color: #000000;
+    background-color: #0e0e0e;
     width: 20%;
   }
 
   .leftnav {
-    background-color: #000000;
+    background-color: #0e0e0e;
     width: 20%;
     height: 100%;
     position: fixed;
@@ -308,9 +306,20 @@ body {
     z-index: 1;
   }
 
+  .fullscreen-video-overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 64, 64, 0.52);
+    display: none;
+    z-index: 4;
+    position: fixed;
+  }
+
   .video {
-    width: 25.6em;
-    height: 14.4em;
+    width: 600px;
+    height: 350px;
   }
 
   .playbutton {
@@ -322,7 +331,9 @@ body {
 
   }
 
-  
+  .margin-left5p {
+    margin-left: 5%;
+  }
 
   .spacer {
     margin: 5%;
@@ -335,7 +346,7 @@ body {
   .paddingmain {
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 7%;
+    padding-top: 5%;
   }
 
   .footer {
@@ -346,7 +357,8 @@ body {
     width: 100%;
     height: 0.6em;
     border-radius: 5px;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
+    margin-top: 5%;
   }
 }
 

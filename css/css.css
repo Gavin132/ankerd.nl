@@ -286,11 +286,23 @@ body {
   .background-video-popout {
     position: fixed;
     z-index: 100;
-    width: 90vw;
+    width: 70vw;
     aspect-ratio: 16 / 9;
     max-width: 100%;
-    margin-top: 3%;
+    margin-top: 2%;
   }
+
+  #hiddenvideoplayer {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: none;
+}
+
+#hiddenvideoplayer.show {
+  display: flex;
+  opacity: 1;
+}
+
 
   .hiddenvideoplayer {
     display: none;

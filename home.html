@@ -16,13 +16,15 @@
 <link href="css/css.css" rel="stylesheet">
 
 <!-- de youtube video popout -->
-<div style="display:none;" id="hiddenvideoplayer">
+<div style="display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(64, 64, 64, 0.52); z-index: 50;"
+    class="justify-content-center" id="hiddenvideoplayer" onclick="videoplayerclose()">
     <iframe class="background-video-popout"
         src="https://www.youtube.com/embed/rsfzFnc1q7E?si=Wn7LPVHvxuZsvIo7&amp;controls=0" title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
 
 
 <div class="mainalign">
@@ -58,10 +60,13 @@
                 </div>
             </div>
             <div style="color: gray;" class="poppins-light">
-                tomofair 2025 februari
+                Tomofair Nijmegen 2025
+            </div>
+            <div style="color: gray;" class="poppins-light">
+                Random pieces of footage put together all from the same weekend.
             </div>
 
-            <div class="spacer"></div>
+
 
             <div>
                 <img class="ribbon" src="images/ankerdribbon.png">
@@ -72,9 +77,11 @@
                         convention videos
                     </div>
                     <div class="poppins-regular fontsize120p">
-                        we usually go out to anime conventions in the Netherlands. lately we’ve also been visiting
-                        conventions that are out of the country like Dokomi. the videos are actually just made for the
-                        friends at ankerd, but are public for all to see. that is basically it.
+                        We usually go out to most of the anime conventions in the Netherlands. Lately we’ve also been
+                        visiting
+                        conventions that are out of the country like Dokomi. The videos are actually just made for our
+                        friends here
+                        at ankerd, but are public for ease of access.....
                     </div>
                 </div>
 
@@ -99,9 +106,3 @@
 <div class="footer">
 
 </div>
-
-<!-- <script>
-document.getElementById('playBtn').addEventListener('click', () => {
-  document.getElementById('hiddenvideoplayer').style.display = 'flex';
-});
-</script> -->
